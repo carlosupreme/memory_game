@@ -4,14 +4,6 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-:root{
-  --body: #a1a1a1;
-  --header: red;
-  --cover: blue;
-  --card: #fff;
-  --text: #111;
-  --title: var(--cover)
-}
 body{
   width: 100vw;
   height: 100vh;
@@ -23,11 +15,6 @@ body{
   height: 100%;
   max-width: 1200px;
   margin: auto;
-}
-h1{
-  font-size: 50px;
-  color: var(--text);
-  text-align: center;
 }
 .main{
   margin: auto;
